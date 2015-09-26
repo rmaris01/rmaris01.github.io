@@ -8,16 +8,16 @@ header {
 
 #navbar {
 	background-color: #D3E6F6;
-	padding: 15px;
-	padding-left: 85%;
+	padding: 20px;
+	padding-left: 10px;
 	border-bottom-style: solid;
 	border-width: 2px;
 	border-bottom-color: black;
 }
 
 #navbar a {
-	padding: 5px;
-	margin: 5px;
+	padding: 7px;
+	margin: 7px;
 	background-color: #5E798F;
 	color: white;
 	border-radius: 15%;
@@ -25,7 +25,7 @@ header {
 }
 
 #resume {
-	margin: 10px;
+	margin: 20px;
 }
 
 #bio {
