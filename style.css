@@ -50,28 +50,6 @@ h1 {
 	font-size: 3em;
 }
 
-/*.about {
-	display: table;
-    width: 100%;
-    height: 60%;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url("images/waikikiBackground.jpg") no-repeat top center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.about p {
-	font-weight: 200;
-	font-size: 18px;
-	text-align: center;
-}*/
-
 .contact {
 	display: table;
     width: 100%;
@@ -145,3 +123,100 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+
+.melody-muse {
+    width: 100%;
+    height: 60%;
+    background: url("images/piano.jpg") center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.melody-muse h1 {
+    padding: 200px 50px 0 0;
+    font-weight: 200;
+    font-size: 60px;
+    text-align: right;
+    color: #000;
+}
+
+.melody-info {
+    padding-top: 10px;
+    width: 100%;
+    height: 40%;
+    background-color: #FDF7EF;
+}
+
+.melody-info h2 {
+    margin: 0;
+    font-weight: 200;
+    color: #000;
+    text-align: center;
+}
+
+.melody-info hr {
+    border-color: #000;
+    width: 30%;
+}
+
+.melody-info p {
+    display: inline-block;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+.melody-carousel {
+    background: url("images/musicBackground.jpg") center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 250px;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #000 !important;
+    border-radius: 100% !important;
+    font-size: 40px !important;
+    color: #000;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #000;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
