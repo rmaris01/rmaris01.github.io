@@ -286,6 +286,7 @@ h1 {
 .melody-carousel {
     height: 100%;
     overflow-x: scroll;
+    overflow-y: hidden;
     background: url("images/piano.jpg") center center scroll;
     background-color: #FAF1EA;
     -webkit-background-size: cover;
