@@ -95,6 +95,12 @@ h1 {
 	padding-bottom: 0;
 }
 
+.email {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+
 .resume {
     padding-top: 50px;
 }
