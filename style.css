@@ -3,9 +3,10 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    overflow-x: scroll;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background: #FAF1EA;
+
 }
 
 html {
@@ -179,35 +180,10 @@ h1 {
     color: #000;
 }
 
-/*div.img {
-	display: inline-block;
-    margin: 50px;
-    border-width: 20px;
-    border-color: white;
-    border: 1px solid #ccc;
-    float: center;
-    width: 200px;
-}
-
-div.img:hover {
-    border: 1px solid #777;
-}
-
-div.img img {
-    width: 100%;
-    height: 200px;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-    font-weight: 200;
-}*/
-
 .melody-muse {
     width: 100%;
     height: 60%;
-    background: url("images/piano.jpg") center center scroll;
+    background: url("images/piano.jpg") center right scroll;
     background-color: #FAF1EA;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -226,6 +202,22 @@ div.desc {
     text-align: right;
 }
 
+@media(max-width: 1200px) {
+    .melody-muse h1 {
+        font-size: 50px;
+    }
+}
+@media(max-width: 1000px) {
+    .melody-muse h1 {
+        font-size: 40px;
+    }
+}
+@media(max-width: 800px) {
+    .melody-muse h1 {
+        font-size: 30px;
+    }
+}
+
 .melody-info {
     padding-top: 10px;
     width: 100%;
@@ -242,7 +234,7 @@ div.desc {
 }
 
 .melody-info hr {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     width: 30%;
     border-top: 1px solid #000;
     text-align: center;
@@ -253,7 +245,7 @@ div.desc {
     display: inline-block;
     position: relative;
     top: -22px;
-    padding: 0 10px;
+    padding: 0 5px;
     background: #FAF1EA;
     color: #000;
     font-size: 18px;
@@ -265,20 +257,41 @@ div.desc {
 .melody-info p {
     display: inline-block;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    width: 50%;
+    width: 70%;
+}
+
+@media(max-height: 700px) {
+    .melody-info p {
+        font-size: 16px;
+    }
+}
+@media(max-height: 650px) {
+    .melody-info p {
+        font-size: 15px;
+    }
+}
+@media(max-height: 600px) {
+    .melody-info p {
+        font-size: 14px;
+    }
+}
+@media(max-width: 800px) {
+    .melody-info p {
+        font-size: 16px;
+    }
 }
 
 .melody-carousel {
     height: 100%;
-    background: url("images/musicBackground.jpg") center center scroll;
+    background: url("images/piano.jpg") center center scroll;
     background-color: #FAF1EA;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    padding: 75px 250px;
+    padding: 70px;
 }
 
 .btn-circle {
