@@ -111,9 +111,9 @@ h1 {
     height: 60%;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: #000;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url("images/waikikiBackground.jpg") no-repeat top center scroll;
+    background: url("images/test.jpg") no-repeat top center scroll;
     background-color: #FAF1EA;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -188,7 +188,7 @@ h1 {
 
 .melody-muse {
     width: 100%;
-    height: 60%;
+    height: 100%;
     background: url("images/piano.jpg") center right scroll;
     background-color: #FAF1EA;
     -webkit-background-size: cover;
@@ -200,11 +200,11 @@ h1 {
 .melody-muse h1 {
     position: absolute;
     right: 0;
-    top: 50px;
+    top: 100px;
     padding: 0;
     margin: 0;
     font-weight: 100;
-    font-size: 60px;
+    font-size: 55px;
     text-align: right;
 }
 
@@ -225,10 +225,9 @@ h1 {
 }
 
 .melody-info {
-    padding-top: 10px;
+    padding-top: 5%;
     width: 100%;
     height: 40%;
-    background-color: #FAF1EA;
 }
 
 .melody-info h2 {
@@ -246,26 +245,12 @@ h1 {
     text-align: center;
 }
 
-.melody-info hr:after {
-    content: '§';
-    display: inline-block;
-    position: relative;
-    top: -22px;
-    padding: 0 5px;
-    background: #FAF1EA;
-    color: #000;
-    font-size: 18px;
-    -webkit-transform: rotate(60deg);
-    -moz-transform: rotate(60deg);
-    transform: rotate(60deg);
-}
-
 .melody-info p {
     display: inline-block;
     font-weight: 200;
     font-size: 18px;
     text-align: center;
-    width: 70%;
+    width: 55%;
 }
 
 @media(max-height: 700px) {
@@ -305,7 +290,7 @@ h1 {
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 20%;
+    margin-top: 25%;
     border: 2px solid #000 !important;
     border-radius: 100% !important;
     font-size: 40px !important;
